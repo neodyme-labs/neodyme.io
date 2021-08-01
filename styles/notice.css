@@ -1,6 +1,8 @@
 #logo {
-    position: absolute;
-    left: 1em;
-    top: 1em;
     width: 4em;
+    padding-bottom: 0;
+}
+
+#home_btn {
+    padding: 1em;
 }

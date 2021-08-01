@@ -1,6 +1,6 @@
 #logo {
     width: 15em;
-    padding-bottom: 3em;
+    padding-bottom: 2em;
     filter: invert(1);
     margin: auto;
 }
@@ -54,17 +54,14 @@ html {
 }
 
 body {
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
+    height: 100%;
+    position: relative;
+    margin: 1em;
 }
 
 main {
     display: flex;
     flex-direction: column;
-    padding: 1em;
     margin: auto;
     position: relative;
 }
@@ -91,8 +88,12 @@ a:visited {
     font-weight: 300;
 }
 
+b {
+    font-family: "Roboto-bold", Fallback, sans-serif;
+}
+
 #notice {
     position: absolute;
-    bottom: 1em;
-    right: 1em;
+    bottom: 0;
+    right: 0;
 }
